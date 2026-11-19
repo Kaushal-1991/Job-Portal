@@ -20,6 +20,16 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
+## Database setup
+
+Set `DATABASE_URL` in a project-root `.env` file before running Drizzle Kit:
+
+```powershell
+Copy-Item .env.example .env
+```
+
+Replace the example URL with your MySQL connection string. Keep `.env` private; only the placeholder `.env.example` is tracked.
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
